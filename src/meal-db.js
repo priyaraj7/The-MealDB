@@ -1,5 +1,5 @@
 export class MealDB {
-  async searchRecipe(name) {
+  async getRecipe(name) {
     try {
       const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${name}`;
 

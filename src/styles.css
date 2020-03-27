@@ -2,3 +2,34 @@ body {
   background-color: #2d2013;
   color: white;
 }
+.jumbotron {
+  color: #d57d1f;
+  background-color: rgb(7, 5, 5);
+}
+.meal-img {
+  max-height: 200px;
+  padding-top: 15px;
+}
+.meal-name {
+  font-size: larger;
+  color: #ff8000;
+  text-align: center;
+}
+.ingredients {
+  font-size: larger;
+  color: #ff8000;
+  /* display: none; */
+}
+.instruction {
+  font-size: larger;
+  color: #ff8000;
+  /* display: none; */
+}
+.instr {
+  color: #ffffff;
+  /* display: none; */
+}
+/* .output1 {
+  padding: 20px;
+  border: 15px solid green;
+} */
