@@ -7,29 +7,31 @@ body {
   background-color: rgb(7, 5, 5);
 }
 .meal-img {
-  max-height: 200px;
   padding-top: 15px;
+  height: 250px;
+  width: 350px;
 }
 .meal-name {
   font-size: larger;
   color: #ff8000;
-  text-align: center;
+}
+.meal-name:hover {
+  color: hsl(49, 83%, 50%);
 }
 .ingredients {
   font-size: larger;
   color: #ff8000;
-  /* display: none; */
 }
 .instruction {
   font-size: larger;
   color: #ff8000;
-  /* display: none; */
+  font-weight: bold;
 }
 .instr {
   color: #ffffff;
-  /* display: none; */
+  font-weight: normal;
 }
-/* .output1 {
+.output1 {
   padding: 20px;
-  border: 15px solid green;
-} */
+  border: 15px;
+}
