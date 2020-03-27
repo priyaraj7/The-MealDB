@@ -3,7 +3,7 @@ import fetchMock from "fetch-mock";
 
 describe("MealDB", () => {
   it("getReceipe", async () => {
-    const query = "carrot";
+    const query = "paneer";
     const expectedResponse = {
       meals: {}
     };
@@ -17,6 +17,5 @@ describe("MealDB", () => {
     const response = await mealRecipe.getRecipe(query);
 
     expect(response).toEqual(expectedResponse);
-
   });
 });
